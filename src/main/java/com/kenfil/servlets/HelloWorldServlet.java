@@ -16,7 +16,7 @@ public class HelloWorldServlet extends HttpServlet {
 
     String name = request.getParameter("name");
     if (name == null || name.isEmpty()){
-      name = "world";
+      name = "Tony";
     })
 
     response.setContentType("text/html;");
