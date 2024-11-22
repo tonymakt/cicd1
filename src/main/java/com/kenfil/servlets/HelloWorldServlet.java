@@ -15,7 +15,7 @@ public class HelloWorldServlet extends HttpServlet {
       throws IOException {
 
     String name = request.getParameter("name");
-    if (name == null || name.isEmpty(){
+    if (name == null || name.isEmpty()){
       name = "world";
     })
 
